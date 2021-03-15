@@ -90,6 +90,20 @@
   background-color: #2B7270;
 }
 
+.section4-img-box {
+  text-align: center;
+}
+
+.section4-img {
+  background-image: url(../img/タイトル-min.png);
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: contain;
+  display: inline-block;
+  height: 14vw;
+  width: 25vw;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
@@ -132,6 +146,10 @@
     display: inline-block;
     height: 30vw;
     width: 30vw;
+  }
+  .section4-img {
+    height: 33vw;
+    width: 60vw;
   }
 }
 /*# sourceMappingURL=MY.css.map */
