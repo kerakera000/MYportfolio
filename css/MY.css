@@ -86,6 +86,10 @@
   /* 画像のURLを指定       */
 }
 
+#section3 {
+  background-color: #2B7270;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
