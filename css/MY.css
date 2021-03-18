@@ -162,6 +162,14 @@
   background-size: cover;
 }
 
+#section11 {
+  padding: 0 15vw 0;
+}
+
+.section12-box1 {
+  padding: 0 15vw 0;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
@@ -233,6 +241,12 @@
   }
   .section9-table {
     width: 90vw;
+  }
+  #section11 {
+    padding: 0%;
+  }
+  .section12-box1 {
+    padding: 0 2vw 0;
   }
 }
 /*# sourceMappingURL=MY.css.map */
