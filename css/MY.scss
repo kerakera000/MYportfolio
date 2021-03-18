@@ -99,6 +99,17 @@ font-family: "fantasy";
     background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
     background-size: cover;
 }
+.section8-box{
+    width: 47vw;
+    display: inline-block;
+}
+
+.section8-img{
+    object-fit: cover;
+    height: 20vw;
+    border-radius: 50%;
+    width: 20vw;
+}
 
 
 @media only screen and (max-width: 640px){
@@ -157,5 +168,15 @@ font-family: "fantasy";
 
     .section7-img{
         background-position: bottom left 20%;
+    }
+    .section8-img{
+        object-fit: cover;
+        height: 40vw;
+        border-radius: 50%;
+        width: 40vw;
+    }
+    .section8-box{
+        width: 85vw;
+        display: inline-block;
     }
 }

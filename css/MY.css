@@ -128,6 +128,19 @@
   background-size: cover;
 }
 
+.section8-box {
+  width: 47vw;
+  display: inline-block;
+}
+
+.section8-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 20vw;
+  border-radius: 50%;
+  width: 20vw;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
@@ -182,6 +195,17 @@
   }
   .section7-img {
     background-position: bottom left 20%;
+  }
+  .section8-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 40vw;
+    border-radius: 50%;
+    width: 40vw;
+  }
+  .section8-box {
+    width: 85vw;
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=MY.css.map */
