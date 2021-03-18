@@ -145,6 +145,10 @@
   font-size: 1vw;
 }
 
+.section9-table {
+  width: 40vw;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
@@ -213,6 +217,9 @@
   }
   .section8-list-box p {
     font-size: 3.5vw;
+  }
+  .section9-table {
+    width: 90vw;
   }
 }
 /*# sourceMappingURL=MY.css.map */
