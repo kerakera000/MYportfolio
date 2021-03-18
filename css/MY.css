@@ -149,6 +149,19 @@
   width: 40vw;
 }
 
+#section10 {
+  height: 100vh;
+  position: relative;
+}
+
+.section10-img {
+  background-image: url(../img/service.jpg);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
