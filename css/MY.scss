@@ -136,6 +136,17 @@ font-family: "fantasy";
 .section12-box1{
     padding: 0 15vw 0;
 }
+.section12-plan{
+    p{
+        display: none;
+    }
+}
+.section12-plan:hover{
+    cursor: pointer;
+    p{
+        display: block;
+    }
+}
 
 @media only screen and (max-width: 640px){
     .section1-Img{

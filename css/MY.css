@@ -170,6 +170,18 @@
   padding: 0 15vw 0;
 }
 
+.section12-plan p {
+  display: none;
+}
+
+.section12-plan:hover {
+  cursor: pointer;
+}
+
+.section12-plan:hover p {
+  display: block;
+}
+
 @media only screen and (max-width: 640px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
