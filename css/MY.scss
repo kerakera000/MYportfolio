@@ -136,15 +136,31 @@ font-family: "fantasy";
 .section12-box1{
     padding: 0 15vw 0;
 }
-.section12-plan{
+.section12-btn{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 2;
+}
+.section12-card-box{
+    height: 31vw;
+    background-color: #2B7270;
+}
+.section12-plan-list{
+    height: 0;
     p{
         display: none;
     }
 }
-.section12-plan:hover{
-    cursor: pointer;
-    p{
-        display: block;
+//ドロップダウンメニュー
+.isActive{
+    height: auto;
+    .section12-plan-list{
+        transition: height 1s;
+        height: 10vw;
+        p{
+            display: block;
+        }
     }
 }
 

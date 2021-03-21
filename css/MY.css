@@ -170,15 +170,37 @@
   padding: 0 15vw 0;
 }
 
-.section12-plan p {
+.section12-btn {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: 2;
+}
+
+.section12-card-box {
+  height: 31vw;
+  background-color: #2B7270;
+}
+
+.section12-plan-list {
+  height: 0;
+}
+
+.section12-plan-list p {
   display: none;
 }
 
-.section12-plan:hover {
-  cursor: pointer;
+.isActive {
+  height: auto;
 }
 
-.section12-plan:hover p {
+.isActive .section12-plan-list {
+  -webkit-transition: height 1s;
+  transition: height 1s;
+  height: 10vw;
+}
+
+.isActive .section12-plan-list p {
   display: block;
 }
 
