@@ -120,7 +120,129 @@ font-family: "fantasy";
     width: 40vw; 
 }
 
-@media only screen and (max-width: 640px){
+#section10{
+    height: 100vh;
+    position: relative;
+     
+}
+.section10-img{
+    background-image:url(../img/service.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+#section11{
+    padding: 0 15vw 0;
+}
+.section12-box1{
+    padding: 0 15vw 0;
+}
+.section12-btn{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 2;
+}
+.section12-Supplement{
+    height: 12.5vw;
+}
+.section12-card-box{
+    height: 31vw;
+    background-color: #2B7270;
+}
+.section12-plan-list{
+    height: 0;
+    p{
+        display: none;
+    }
+}
+//ドロップダウンメニュー
+.isActive1{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+.isActive2{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+.isActive3{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+.isActive4{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+@media only screen and (max-width: 1390px){
+    .section12-card-box{
+        height: 32vw;
+        background-color: #2B7270;
+    }
+    .isActive1{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive2{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive3{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive4{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
     .section1-Img{
         background-image:url(../img/spmain.jpeg) ;
         background-size: cover;
@@ -195,5 +317,57 @@ font-family: "fantasy";
     .section9-table{
         width: 90vw; 
     }
-    
+    #section11{
+        padding: 0%;
+    }
+    .section12-box1{
+        padding: 0 2vw 0;
+    }
+    .section12-Supplement{
+        height: 44vw;
+    }
+    .section12-card-box {
+        height: auto;
+        padding-bottom: 2vw;
+    }
+    .isActive1{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive2{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive3{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive4{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
 }
