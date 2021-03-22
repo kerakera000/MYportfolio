@@ -142,6 +142,9 @@ font-family: "fantasy";
     top: 0%;
     z-index: 2;
 }
+.section12-Supplement{
+    height: 12.5vw;
+}
 .section12-card-box{
     height: 31vw;
     background-color: #2B7270;
@@ -153,18 +156,93 @@ font-family: "fantasy";
     }
 }
 //ドロップダウンメニュー
-.isActive{
+.isActive1{
     height: auto;
     .section12-plan-list{
-        transition: height 1s;
-        height: 10vw;
+        transition: height 0.5s;
+        height: 18.5vw;
         p{
             display: block;
         }
     }
 }
-
-@media only screen and (max-width: 640px){
+.isActive2{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+.isActive3{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+.isActive4{
+    height: auto;
+    .section12-plan-list{
+        transition: height 0.5s;
+        height: 18.5vw;
+        p{
+            display: block;
+        }
+    }
+}
+@media only screen and (max-width: 1390px){
+    .section12-card-box{
+        height: 32vw;
+        background-color: #2B7270;
+    }
+    .isActive1{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive2{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive3{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive4{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 20vw;
+            p{
+                display: block;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 800px){
     .section1-Img{
         background-image:url(../img/spmain.jpeg) ;
         background-size: cover;
@@ -244,5 +322,52 @@ font-family: "fantasy";
     }
     .section12-box1{
         padding: 0 2vw 0;
+    }
+    .section12-Supplement{
+        height: 44vw;
+    }
+    .section12-card-box {
+        height: auto;
+        padding-bottom: 2vw;
+    }
+    .isActive1{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive2{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive3{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive4{
+        height: auto;
+        .section12-plan-list{
+            transition: height 0.5s;
+            height: 65vw;
+            p{
+                display: block;
+            }
+        }
     }
 }

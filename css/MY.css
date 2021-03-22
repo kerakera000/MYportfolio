@@ -177,6 +177,10 @@
   z-index: 2;
 }
 
+.section12-Supplement {
+  height: 12.5vw;
+}
+
 .section12-card-box {
   height: 31vw;
   background-color: #2B7270;
@@ -190,21 +194,114 @@
   display: none;
 }
 
-.isActive {
+.isActive1 {
   height: auto;
 }
 
-.isActive .section12-plan-list {
-  -webkit-transition: height 1s;
-  transition: height 1s;
-  height: 10vw;
+.isActive1 .section12-plan-list {
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  height: 18.5vw;
 }
 
-.isActive .section12-plan-list p {
+.isActive1 .section12-plan-list p {
   display: block;
 }
 
-@media only screen and (max-width: 640px) {
+.isActive2 {
+  height: auto;
+}
+
+.isActive2 .section12-plan-list {
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  height: 18.5vw;
+}
+
+.isActive2 .section12-plan-list p {
+  display: block;
+}
+
+.isActive3 {
+  height: auto;
+}
+
+.isActive3 .section12-plan-list {
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  height: 18.5vw;
+}
+
+.isActive3 .section12-plan-list p {
+  display: block;
+}
+
+.isActive4 {
+  height: auto;
+}
+
+.isActive4 .section12-plan-list {
+  -webkit-transition: height 0.5s;
+  transition: height 0.5s;
+  height: 18.5vw;
+}
+
+.isActive4 .section12-plan-list p {
+  display: block;
+}
+
+@media only screen and (max-width: 1390px) {
+  .section12-card-box {
+    height: 32vw;
+    background-color: #2B7270;
+  }
+  .isActive1 {
+    height: auto;
+  }
+  .isActive1 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 20vw;
+  }
+  .isActive1 .section12-plan-list p {
+    display: block;
+  }
+  .isActive2 {
+    height: auto;
+  }
+  .isActive2 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 20vw;
+  }
+  .isActive2 .section12-plan-list p {
+    display: block;
+  }
+  .isActive3 {
+    height: auto;
+  }
+  .isActive3 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 20vw;
+  }
+  .isActive3 .section12-plan-list p {
+    display: block;
+  }
+  .isActive4 {
+    height: auto;
+  }
+  .isActive4 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 20vw;
+  }
+  .isActive4 .section12-plan-list p {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 800px) {
   .section1-Img {
     background-image: url(../img/spmain.jpeg);
     background-size: cover;
@@ -281,6 +378,57 @@
   }
   .section12-box1 {
     padding: 0 2vw 0;
+  }
+  .section12-Supplement {
+    height: 44vw;
+  }
+  .section12-card-box {
+    height: auto;
+    padding-bottom: 2vw;
+  }
+  .isActive1 {
+    height: auto;
+  }
+  .isActive1 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 65vw;
+  }
+  .isActive1 .section12-plan-list p {
+    display: block;
+  }
+  .isActive2 {
+    height: auto;
+  }
+  .isActive2 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 65vw;
+  }
+  .isActive2 .section12-plan-list p {
+    display: block;
+  }
+  .isActive3 {
+    height: auto;
+  }
+  .isActive3 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 65vw;
+  }
+  .isActive3 .section12-plan-list p {
+    display: block;
+  }
+  .isActive4 {
+    height: auto;
+  }
+  .isActive4 .section12-plan-list {
+    -webkit-transition: height 0.5s;
+    transition: height 0.5s;
+    height: 65vw;
+  }
+  .isActive4 .section12-plan-list p {
+    display: block;
   }
 }
 /*# sourceMappingURL=MY.css.map */
