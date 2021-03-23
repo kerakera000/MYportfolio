@@ -142,12 +142,11 @@ font-family: "fantasy";
     top: 0%;
     z-index: 2;
 }
-.section12-Supplement{
-    height: 12.5vw;
-}
 .section12-card-box{
-    height: 31vw;
     background-color: #2B7270;
+}
+.section12-card-box2{
+    background-color: #577ab7;
 }
 .section12-plan-list{
     height: 0;
@@ -159,8 +158,7 @@ font-family: "fantasy";
 .isActive1{
     height: auto;
     .section12-plan-list{
-        transition: height 0.5s;
-        height: 18.5vw;
+        height: auto;
         p{
             display: block;
         }
@@ -169,8 +167,7 @@ font-family: "fantasy";
 .isActive2{
     height: auto;
     .section12-plan-list{
-        transition: height 0.5s;
-        height: 18.5vw;
+        height: auto;
         p{
             display: block;
         }
@@ -179,8 +176,7 @@ font-family: "fantasy";
 .isActive3{
     height: auto;
     .section12-plan-list{
-        transition: height 0.5s;
-        height: 18.5vw;
+        height: auto;
         p{
             display: block;
         }
@@ -189,8 +185,7 @@ font-family: "fantasy";
 .isActive4{
     height: auto;
     .section12-plan-list{
-        transition: height 0.5s;
-        height: 18.5vw;
+        height: auto;
         p{
             display: block;
         }
@@ -198,49 +193,9 @@ font-family: "fantasy";
 }
 @media only screen and (max-width: 1390px){
     .section12-card-box{
-        height: 32vw;
         background-color: #2B7270;
     }
-    .isActive1{
-        height: auto;
-        .section12-plan-list{
-            transition: height 0.5s;
-            height: 20vw;
-            p{
-                display: block;
-            }
-        }
-    }
-    .isActive2{
-        height: auto;
-        .section12-plan-list{
-            transition: height 0.5s;
-            height: 20vw;
-            p{
-                display: block;
-            }
-        }
-    }
-    .isActive3{
-        height: auto;
-        .section12-plan-list{
-            transition: height 0.5s;
-            height: 20vw;
-            p{
-                display: block;
-            }
-        }
-    }
-    .isActive4{
-        height: auto;
-        .section12-plan-list{
-            transition: height 0.5s;
-            height: 20vw;
-            p{
-                display: block;
-            }
-        }
-    }
+ 
 }
 @media only screen and (max-width: 800px){
     .section1-Img{
@@ -333,8 +288,7 @@ font-family: "fantasy";
     .isActive1{
         height: auto;
         .section12-plan-list{
-            transition: height 0.5s;
-            height: 65vw;
+            height:auto;
             p{
                 display: block;
             }
@@ -343,8 +297,7 @@ font-family: "fantasy";
     .isActive2{
         height: auto;
         .section12-plan-list{
-            transition: height 0.5s;
-            height: 65vw;
+            height:auto;
             p{
                 display: block;
             }
@@ -353,8 +306,7 @@ font-family: "fantasy";
     .isActive3{
         height: auto;
         .section12-plan-list{
-            transition: height 0.5s;
-            height: 65vw;
+            height:auto;
             p{
                 display: block;
             }
@@ -363,8 +315,7 @@ font-family: "fantasy";
     .isActive4{
         height: auto;
         .section12-plan-list{
-            transition: height 0.5s;
-            height: 65vw;
+            height:auto;
             p{
                 display: block;
             }
