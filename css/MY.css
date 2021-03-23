@@ -193,6 +193,10 @@
   display: none;
 }
 
+.textbox-12 {
+  font-size: 1vw;
+}
+
 .isActive1 {
   height: auto;
 }
@@ -331,6 +335,9 @@
   .section12-card-box {
     height: auto;
     padding-bottom: 2vw;
+  }
+  .textbox-12 {
+    font-size: 4vw;
   }
   .isActive1 {
     height: auto;
