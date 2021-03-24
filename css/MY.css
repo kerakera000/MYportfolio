@@ -209,18 +209,6 @@
   display: block;
 }
 
-.isActive2 {
-  height: auto;
-}
-
-.isActive2 .section12-plan-list {
-  height: auto;
-}
-
-.isActive2 .section12-plan-list p {
-  display: block;
-}
-
 .isActive3 {
   height: auto;
 }
@@ -233,16 +221,23 @@
   display: block;
 }
 
-.isActive4 {
-  height: auto;
+.section13-td {
+  width: 17vw;
+  height: 4vw;
 }
 
-.isActive4 .section12-plan-list {
-  height: auto;
+.section13-text {
+  width: 45vw;
 }
 
-.isActive4 .section12-plan-list p {
-  display: block;
+.section14-list-box {
+  display: inline-block;
+  width: 40vw;
+}
+
+.section14-list-minibox {
+  display: inline-block;
+  width: 28vw;
 }
 
 @media only screen and (max-width: 1390px) {
@@ -348,15 +343,6 @@
   .isActive1 .section12-plan-list p {
     display: block;
   }
-  .isActive2 {
-    height: auto;
-  }
-  .isActive2 .section12-plan-list {
-    height: auto;
-  }
-  .isActive2 .section12-plan-list p {
-    display: block;
-  }
   .isActive3 {
     height: auto;
   }
@@ -366,14 +352,20 @@
   .isActive3 .section12-plan-list p {
     display: block;
   }
-  .isActive4 {
-    height: auto;
+  .section13-text {
+    width: 75vw;
   }
-  .isActive4 .section12-plan-list {
-    height: auto;
+  .section13-td {
+    width: 45vw;
+    height: 17vw;
   }
-  .isActive4 .section12-plan-list p {
-    display: block;
+  .section14-list-box {
+    width: 90vw;
+    font-size: 3.5vw;
+  }
+  .section14-list-minibox {
+    display: inline-block;
+    width: auto;
   }
 }
 /*# sourceMappingURL=MY.css.map */
