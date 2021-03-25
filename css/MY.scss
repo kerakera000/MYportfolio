@@ -193,6 +193,19 @@ font-family: "fantasy";
     display: inline-block;
     width: 28vw;
 }
+#section16{
+    height: 100vh;
+    position: relative;
+}
+.section16-img{
+    background-image:url(../img/contact.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+#section18{
+    background-color: white;
+    letter-spacing: 0.1vw;
+}
 @media only screen and (max-width: 1390px){
     .section12-card-box{
         background-color: #2B7270;
