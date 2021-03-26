@@ -258,6 +258,28 @@
   letter-spacing: 0.1vw;
 }
 
+.section19-img-top {
+  display: inline-block;
+  background-image: url(../img/aboutTop.png);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+  width: 10vw;
+  height: 10vw;
+}
+
+.section19-img-service {
+  display: inline-block;
+  background-image: url(../img/aboutService.png);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+  width: 10vw;
+  height: 10vw;
+}
+
 @media only screen and (max-width: 1390px) {
   .section12-card-box {
     background-color: #2B7270;
