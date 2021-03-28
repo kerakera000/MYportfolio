@@ -279,6 +279,26 @@
   width: 8vw;
   height: 8vw;
 }
+.section19-img-contact{
+  display: inline-block;
+  background-image: url(../img/contact.png);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+  width: 8vw;
+  height: 8vw;
+}
+.section19-img-profile{
+  display: inline-block;
+  background-image: url(../img/profile.png);
+  /* 画像のURLを指定       */
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  background-size: cover;
+  width: 8vw;
+  height: 8vw;
+}
 
 .section19-text {
   font-size: 1vw;
@@ -437,9 +457,33 @@
     width: 20vw;
     height: 20vw;
   }
+  .section19-img-contact{
+    display: inline-block;
+    background-image: url(../img/contact.png);
+    /* 画像のURLを指定       */
+    background-repeat: no-repeat;
+    /* 画像の繰り返しを指定  */
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+  }
+  .section19-img-profile{
+    display: inline-block;
+    background-image: url(../img/profile.png);
+    /* 画像のURLを指定       */
+    background-repeat: no-repeat;
+    /* 画像の繰り返しを指定  */
+    background-size: cover;
+    width: 20vw;
+    height: 20vw;
+  }
   .section19-container{
     text-align: center;
     margin: 0 ;
+  }
+  .section19-text {
+    font-size: 2vw;
+    text-align: center;
   }
 }
  
