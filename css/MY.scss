@@ -1,0 +1,359 @@
+#BODY{
+font-family: "fantasy";
+}    
+#section1{
+    height: 100vh;
+    position: relative;
+}
+.drawer-hamburger-icon{
+    background-color: #2B7270;
+}
+.drawer-hamburger-icon::after{
+    background-color: #2B7270;
+}
+.drawer-hamburger-icon::before{
+    background-color: #2B7270;
+}
+.section1-Img{
+    background-image:url(../img/img-top.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+.section1-title--box{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    width: 20vw;
+    height: auto;
+    text-align: center;
+    top: 16vw;
+    left: 9vw;
+    letter-spacing: 0.12vw;
+    h1{
+        margin: 0%;
+        font-size: 2vw;
+    }
+    p{
+        margin: 0%;
+        font-size: 1vw;
+    }
+    span{
+        width: 100%;
+        height: 1px;
+        display: block;
+        background-color: white;
+    }
+}
+#section2{
+    height: auto;
+    padding: 0 15vw 0;
+}
+.section2-img{            
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: contain;
+    display: inline-block;
+    height: 10vw;
+    width: 10vw;
+}
+.section2-img-1{
+    background-image:url(../img/img-service1.png);             /* 画像のURLを指定       */
+}
+.section2-img-2{
+    background-image:url(../img/img-service2.png);             /* 画像のURLを指定       */
+}
+.section2-img-3{
+    background-image:url(../img/img-service3.png);             /* 画像のURLを指定       */
+}
+
+#section3{
+    background-color: #2B7270;
+}
+.section4-img-box{
+    text-align: center;
+}
+.section4-img{
+    background-image:url(../img/タイトル-min.png); 
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: contain;
+    display: inline-block;
+    height: 14vw;
+    width: 25vw;
+}
+
+#section5{
+    background-color: #2B7270;
+    letter-spacing: 0.1vw;
+}
+
+.section6-box {
+    display: inline-block;
+    width: 40vw;
+    height: 30vw;
+}
+#section7{
+    height: 100vh;
+    position: relative;
+}
+.section7-img{
+    background-image:url(../img/about.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+.section8-box{
+    width: 50vw;
+    display: inline-block;
+}
+
+.section8-img{
+    object-fit: cover;
+    height: 15vw;
+    border-radius: 50%;
+    width: 15vw;
+}
+
+.section8-list-box{
+    p{
+        font-size: 1vw;
+    }
+}
+.section9-table{
+    width: 40vw; 
+}
+
+#section10{
+    height: 100vh;
+    position: relative;
+     
+}
+.section10-img{
+    background-image:url(../img/service.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+#section11{
+    padding: 0 15vw 0;
+}
+.section12-box1{
+    padding: 0 15vw 0;
+}
+.section12-btn{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 2;
+}
+.section12-card-box{
+    background-color: #2B7270;
+}
+.section12-card-box2{
+    background-color: #577ab7;
+}
+.section12-plan-list{
+    height: 0;
+    p{
+        display: none;
+    }
+}
+.textbox-12{
+    font-size: 1vw;
+}
+//ドロップダウンメニュー
+.isActive1{
+    height: auto;
+    .section12-plan-list{
+        height: auto;
+        p{
+            display: block;
+        }
+    }
+}
+
+.isActive3{
+    height: auto;
+    .section12-plan-list{
+        height: auto;
+        p{
+            display: block;
+        }
+    }
+}
+//ここまで
+.section13-td{
+    width: 17vw;
+    height: 4vw;
+}
+.section13-text{
+    width: 45vw;
+}
+.section14-list-box{
+    display: inline-block;
+    width: 40vw;
+}
+.section14-list-minibox{
+    display: inline-block;
+    width: 28vw;
+}
+#section16{
+    height: 100vh;
+    position: relative;
+}
+.section16-img{
+    background-image:url(../img/contact.jpg);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+}
+#section18{
+    background-color: white;
+    letter-spacing: 0.1vw;
+}
+.section19-img-top{
+    display: inline-block;
+    background-image:url(../img/aboutTop.png);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+}
+.section19-img-service{
+    display: inline-block;
+    background-image:url(../img/aboutService.png);             /* 画像のURLを指定       */
+    background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+    background-size: cover;
+    width: 10vw;
+    height: 10vw;
+}
+.section19-text{
+    font-size: 1vw;
+    text-align: center;
+}
+@media only screen and (max-width: 1390px){
+    .section12-card-box{
+        background-color: #2B7270;
+    }
+ 
+}
+@media only screen and (max-width: 800px){
+    .section1-Img{
+        background-image:url(../img/spmain.jpeg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center left 75%;
+    }
+    .section1-title--box{
+        position: absolute;
+        color: white;
+        display: inline-block;
+        width: 55vw;
+        height: auto;
+        text-align: center;
+        top: 25vw;
+        left: 9vw;
+        letter-spacing: 0.12vw;
+        h1{
+            margin: 0%;
+            font-size: 6vw;
+        }
+        p{
+            margin: 0%;
+            font-size: 3vw;
+        }
+        span{
+            width: 100%;
+            height: 1px;
+            display: block;
+            background-color: white;
+        }
+    }
+
+    #section2{
+        padding: 0;
+    }
+    .section2-img{            
+        background-repeat:  no-repeat;                /* 画像の繰り返しを指定  */             
+        background-size: contain;
+        display: inline-block;
+        height: 30vw;
+        width: 30vw;
+    }
+    .section4-img{
+        height: 33vw;
+        width: 60vw;
+    }
+
+    .section6-box {
+        display: inline-block;
+        width: 80vw;
+        height: 60vw;
+    }
+
+    .section7-img{
+        background-position: bottom left 20%;
+    }
+    .section8-img{
+        object-fit: cover;
+        height: 40vw;
+        border-radius: 50%;
+        width: 40vw;
+    }
+    .section8-box{
+        width: 85vw;
+        display: inline-block;
+    }
+    .section8-list-box{
+        p{
+            font-size: 3.5vw;
+        }
+    }
+    .section9-table{
+        width: 90vw; 
+    }
+    #section11{
+        padding: 0%;
+    }
+    .section12-box1{
+        padding: 0 2vw 0;
+    }
+    .section12-Supplement{
+        height: 44vw;
+    }
+    .section12-card-box {
+        height: auto;
+        padding-bottom: 2vw;
+    }
+    .textbox-12{
+        font-size: 4vw;
+    }
+    .isActive1{
+        height: auto;
+        .section12-plan-list{
+            height:auto;
+            p{
+                display: block;
+            }
+        }
+    }
+    .isActive3{
+        height: auto;
+        .section12-plan-list{
+            height:auto;
+            p{
+                display: block;
+            }
+        }
+    }
+    .section13-text{
+        width: 75vw;
+    }
+    .section13-td{
+        width: 45vw;
+        height: 17vw;
+    }
+    .section14-list-box{
+        width: 90vw;
+        font-size: 3.5vw;
+    }
+    .section14-list-minibox{
+        display: inline-block;
+        width: auto;
+    }
+}
