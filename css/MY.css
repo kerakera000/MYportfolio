@@ -265,8 +265,8 @@
   background-repeat: no-repeat;
   /* 画像の繰り返しを指定  */
   background-size: cover;
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 .section19-img-service {
@@ -276,37 +276,13 @@
   background-repeat: no-repeat;
   /* 画像の繰り返しを指定  */
   background-size: cover;
-  width: 8vw;
-  height: 8vw;
-}
-.section19-img-contact{
-  display: inline-block;
-  background-image: url(../img/contact.png);
-  /* 画像のURLを指定       */
-  background-repeat: no-repeat;
-  /* 画像の繰り返しを指定  */
-  background-size: cover;
-  width: 8vw;
-  height: 8vw;
-}
-.section19-img-profile{
-  display: inline-block;
-  background-image: url(../img/profile.png);
-  /* 画像のURLを指定       */
-  background-repeat: no-repeat;
-  /* 画像の繰り返しを指定  */
-  background-size: cover;
-  width: 8vw;
-  height: 8vw;
+  width: 10vw;
+  height: 10vw;
 }
 
 .section19-text {
   font-size: 1vw;
   text-align: center;
-}
-.section19-container{
-  text-align: center;
-  margin: 0 20vw 0 20vw;
 }
 
 @media only screen and (max-width: 1390px) {
@@ -436,56 +412,14 @@
     display: inline-block;
     width: auto;
   }
-  .section19-img-top {
-    display: inline-block;
-    background-image: url(../img/aboutTop.png);
-    /* 画像のURLを指定       */
+  #section16 {
+    padding: 0;
+  }
+  .section16-img {
+    background-image: url(../img/contact.jpg);
     background-repeat: no-repeat;
-    /* 画像の繰り返しを指定  */
     background-size: cover;
-    width: 20vw;
-    height: 20vw;
-  }
-  
-  .section19-img-service {
-    display: inline-block;
-    background-image: url(../img/aboutService.png);
-    /* 画像のURLを指定       */
-    background-repeat: no-repeat;
-    /* 画像の繰り返しを指定  */
-    background-size: cover;
-    width: 20vw;
-    height: 20vw;
-  }
-  .section19-img-contact{
-    display: inline-block;
-    background-image: url(../img/contact.png);
-    /* 画像のURLを指定       */
-    background-repeat: no-repeat;
-    /* 画像の繰り返しを指定  */
-    background-size: cover;
-    width: 20vw;
-    height: 20vw;
-  }
-  .section19-img-profile{
-    display: inline-block;
-    background-image: url(../img/profile.png);
-    /* 画像のURLを指定       */
-    background-repeat: no-repeat;
-    /* 画像の繰り返しを指定  */
-    background-size: cover;
-    width: 20vw;
-    height: 20vw;
-  }
-  .section19-container{
-    text-align: center;
-    margin: 0 ;
-  }
-  .section19-text {
-    font-size: 2vw;
-    text-align: center;
+    background-position: bottom left 65%;
   }
 }
- 
-
 /*# sourceMappingURL=MY.css.map */

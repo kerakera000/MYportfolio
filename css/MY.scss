@@ -356,4 +356,14 @@ font-family: "fantasy";
         display: inline-block;
         width: auto;
     }
+
+    #section16{
+        padding: 0;
+    }
+    .section16-img{            
+        background-image: url(../img/contact.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom left 65%;
+    }
 }
